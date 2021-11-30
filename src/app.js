@@ -17,9 +17,9 @@ const app = async () => {
   } else if (command === "list") {
     await connection(listMovies);
   } else if (command === "filter") {
-    await connection(filterMovies, process.argv[3]);
+    await connection(filterMovies, process.argv[3], process.argv[4]);
   } else if (command === "update") {
-    await connection(updateMovie, process.argv[3], process.argv[4]);
+    await connection(updateMovie, process.argv[3], process.argv[4], process.argv[5]);
   } else if (command === "delete") {
     await connection(deleteMovie, process.argv[3]);
   } else {
