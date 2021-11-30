@@ -1,0 +1,24 @@
+{
+  "name": "W7D2PM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ju1ija/CN-node-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ju1ija/CN-node-mongo/issues"
+  },
+  "homepage": "https://github.com/Ju1ija/CN-node-mongo#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.2.0"
+  }
+}
